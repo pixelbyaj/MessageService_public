@@ -1,0 +1,68 @@
+{
+    "version": "v1.0.0",
+    "entity": {
+      "type": "individual",
+      "role": "owner",
+      "name": "Abhishek Joshi",
+      "email": "pixelbyaj.dev@gmail.com",
+      "phone": "7768069191",
+      "description": "It is a free and Open source softwares which we can use to download, extract, render, generate & upload the payment messages which are based on the SWIFT ISO20022 & SEPA enterprise standards.",
+      "webpageUrl": {
+        "url": "https://iso20022.in/",
+        "wellKnown": "https://iso20022.in/funding.json"
+      }
+    },
+    "projects": [
+      {
+        "guid": "messageservice-service",
+        "name": "MessageService",
+        "description": "MessageService is a robust multithreaded comprehensive enterprise software solutions specifically designed to facilitate the download/upload ISO 20022 messages. It supports a wide range of messaging platforms,including IBM MQ, RabbitMQ, and Kafka, providing a comprehensive solution for your financial messaging needs.",
+        "webpageUrl": {
+          "url": "https://iso20022.in/messageservice/"
+        },
+        "repositoryUrl": {
+          "url": "https://github.com/pixelbyaj/MessageService_public.git",
+          "wellKnown": "https://github.com/pixelbyaj/MessageService_public/blob/main/.well-known/funding.json"
+        },
+        "licenses": ["spdx:Apache License 2.0"],
+        "tags": [
+          "iso20022",
+          "swift",
+          "fintech",
+          "mx",
+          "xsdtojson",
+          "IBMMQ",
+          "MQ",
+          "rabbitmq",
+          "apache kafka",
+          "kafka",
+          "windowservice",
+          "multithread"
+        ]
+      }
+    ],
+    "funding": {
+      "channels": [
+        {
+          "guid": "pixelyaj-paypal",
+          "type": "gateway",
+          "address": "paypal.me/pixelbyaj",
+          "description": "Paypal payment"
+        }
+      ],
+      "plans": [
+        {
+          "guid": "paypal",
+          "status": "active",
+          "name": "Starter support",
+          "description": "This will cover the monthly server hosting costs for the projects and the help me to promote it via different channels",
+          "amount": 0,
+          "currency": "INR",
+          "frequency": "yearly",
+          "channels": ["pixelyaj-paypal"]
+        }
+      ],
+      "history": []
+    }
+  }
+  
