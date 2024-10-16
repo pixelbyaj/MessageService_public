@@ -22,7 +22,7 @@
         },
         "repositoryUrl": {
           "url": "https://github.com/pixelbyaj/MessageService_public.git",
-          "wellKnown": "https://github.com/pixelbyaj/MessageService_public/blob/main/.well-known/funding.json"
+          "wellKnown": "https://github.com/pixelbyaj/MessageService_public/blob/main/.well-known/funding-manifest-urls"
         },
         "licenses": ["spdx:Apache License 2.0"],
         "tags": [
